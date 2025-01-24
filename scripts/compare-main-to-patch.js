@@ -29,7 +29,7 @@ const ignoreCommitPatterns = [
   'docs: release notes',
   'build(docs-infra): upgrade cli command docs sources',
 ];
-
+console.log(1);
 // Ignore feature commits that have specific patterns in commit message, it's ok for these commits
 // to be present in patch branch.
 const ignoreFeatureCheckPatterns = [
